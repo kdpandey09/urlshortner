@@ -12,7 +12,7 @@ databsae = mongo_db.UrlShortner
 collection = databsae.urls
 
 qr_obj = qr_code()
-base_url = "http://127.0.0.1:8000/"
+base_url = "https://kdpurlshortner.onrender.com"
 url_obj = urls(collection)
 class addURL(BaseModel):
     special_key : str
